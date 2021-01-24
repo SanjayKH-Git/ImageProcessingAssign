@@ -66,10 +66,9 @@ for i,im in enumerate(imgs):
 print('sum of imgs(Total no) = ',i+1)    
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-
+```
 ![](output_imgs/sum_Mean_OP.png)
-
-
+---
 
 **4.Develop a program to convert the color image to gray scale and binary image.**
 
