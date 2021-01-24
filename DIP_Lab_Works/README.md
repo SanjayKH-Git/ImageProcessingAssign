@@ -106,7 +106,7 @@ cv2.imshow('BIN_Img',bin_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![](output_imgs/sum_Mean_OP.png)
+![](output_imgs/op4_3.png)
 
 
 **5.Develop a program to convert the given color image to different color spaces.**
