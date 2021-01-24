@@ -66,11 +66,8 @@ for i,im in enumerate(imgs):
 print('sum of imgs(Total no) = ',i+1)    
 cv2.waitKey(0)
 cv2.destroyAllWindows()
-```
-```
-sum of imgs(Total no) =  3
-```
-![](output_imgs/op3_1.png)
+
+![](output_imgs/sum_Mean_OP.png)
 
 
 
