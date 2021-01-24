@@ -72,15 +72,6 @@ sum of imgs(Total no) =  3
 ```
 ![](output_imgs/op3_1.png)
 
-![](output_imgs/op3_2.png)
-
-![](output_imgs/op3_3.png)
-
-![](output_imgs/op3_4.png)
-
-![](output_imgs/op3_5.png)
-
-![](output_imgs/op3_6.png)
 
 
 **4.Develop a program to convert the color image to gray scale and binary image.**
@@ -115,7 +106,7 @@ cv2.imshow('BIN_Img',bin_img)
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
-![](output_imgs/op4_3.png)
+![](output_imgs/sum_Mean_OP.png)
 
 
 **5.Develop a program to convert the given color image to different color spaces.**
