@@ -59,11 +59,11 @@ files=os.listdir(path) #List
 for file in files:
     fpath=path+'\\'+file
     imgs.append(cv2.imread(fpath))
-    
-for i,im in enumerate(imgs):
-    cv2.imshow(files[i],imgs[i])    
-    cv2.imshow('Mean of '+files[i],len(im)/im)
-print('sum of imgs(Total no) = ',i+1)    
+#sum_imgs=[]    
+for i,sum_imgs in enumerate(imgs):
+    sum_imgs+=imgs[i]
+cv2.imshow('sum of images',sum_imgs)
+cv2.imshow('Mean of '+files[i],sum_imgs/len(files))
 cv2.waitKey(0)
 cv2.destroyAllWindows()
 ```
